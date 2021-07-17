@@ -1,0 +1,187 @@
+Rules to define identifiers
+---------------------------------
+
+1) [a-zA-Z0-9]
+2) it cannot be started with a number but can contain number
+3) it cannot be any keyword name
+4) only one special chaarcter is allowed i.e. _ (underscore)
+
+operators 
+------------
+Operator is symbol 
+
+1) Arithemtic operators 
++,-,*,/,%,//,**
+
+/ -- Normal divsion -- quotient
+// - floor division -- quotient
+% - modulo/modulus/mod -- remainder
+** - exponential operator/power operator
+
+Normal division operators, always gives you output in float 
+
+floor diviosn says:
+	1) if any of the operand is float only then result will be in float
+	2) if both the operands are integer then u will get integer asnwer only. It will never do a complete division.  
+
+
+
+Assignment operators 
+------------------------
+
+=, +=, -=, *=
+
+comparison operators 
+-------------------------
+
+==, >=,<=,>,<,!=
+
+Logical operators 
+
+and or not 
+----------------------------------
+Immutability vs mutabiltiy
+----------------------------------
+
+Immutabiltiy -- You cannot change an exisitng object ( Non changable) 
+
+
+We have two execution modes in python
+
+1) Interactive Mode
+2) Script Mode
+
+
+How we can access the characters of string
+1) Indexing 
+2) Slicing
+
+Python supports both positive and negative indexing. 
+
+We use square brackets [] for indexing, it starts from 0 (forward direction -- left to right)
+
+-ve indexing means bakcward direction that means right to left it starts from -1
+
+
+Whenever we want to use + operator for string compulsory both arguments should be string only. --- string concatenation. 
+
+String repetition -- compulsory we should have one string and other is int. 
+
+
+
+control flow statements
+1) conditional statements/ decision making -- if else, elif
+2) iterative statements (loops) -- while, for
+3) Jump statements/Transfer statements -- break, continue
+
+
+-----------------------------------------------------------------------
+
+print()
+type()
+input()
+
+By default data type of input() is string.
+
+Typecasting ---- Means converting one data type to another.  
+
+eval() ---- Automatically detects which data type u r providing.
+
+
+
+
+for i in range(5,51,5):
+        print(i)
+
+
+## WAP to print the following pattern
+
+*
+**
+***
+****
+*****
+
+## WAP to print the following pattern
+*****
+****
+***
+**
+*
+
+## WAP to print the following pattern
+*****
+ ****
+  ***
+   **
+    *
+
+x=int(input("enter no. of rows"))
+count=0
+for i in range (x,0,-1):
+         print(" "*count)
+         count=count+1
+         print("*"*i)
+
+
+or 
+
+
+x=int(input("enter no. of rows"))
+for i in range (x,0,-1):
+         print(" "*(x-i),end="")
+         print("*"*i)
+
+
+## WAP to find out of the number is armstrong or not.
+x=input("enter number") ## 153
+y=len(x)   ## 3
+count=0 
+for i in range(y):
+        count=count+int(x[i])**y
+        print(count)
+if count==int(x):
+     print(x,"is armstong value")
+else:
+    print("not a armstong value")
+
+
+## WAP to find all armstrong numbers between 2 to 1000.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
