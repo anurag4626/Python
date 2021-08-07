@@ -149,6 +149,35 @@ else:
 ## WAP to find all armstrong numbers between 2 to 1000.
 
 
+Slicing 
+---------------------------
+[start:end:step]
+
+
+start -- start index value
+end --   end index value
+step - increment.  
+
+
+
+>>> x = "DB-01"
+>>> x[0:3:2]
+When ever step value is +ve,forward direction (left to right)
+
+When ever step value is +ve, end index will become end-1.
+if start value is not given, default value is 0.
+if end value is not given, it will take till last character, but you dont need to do end-1 here.
+is step value is not given, default value is 1.
+
+
+Step value -ve
+It will be in backward direction ( right to left)
+
+if step value is -ve, end will become end+1.
+If end value is not given, it will take till last character from backward direction and there will be no end+1.
+if start index is not given, default value is -1.
+
+
 
 
 
