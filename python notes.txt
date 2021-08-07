@@ -177,9 +177,63 @@ if step value is -ve, end will become end+1.
 If end value is not given, it will take till last character from backward direction and there will be no end+1.
 if start index is not given, default value is -1.
 
+Date : 7 - Aug - 2021
+
+L = [[10,20,30],[40,50,60],[70,80,90]]
+for i in L:
+        print(i)
+for i in L:
+        for j in i:
+                print(j,end=" ")
+        print()
+
+'''
+
+## Output
+
+Matrix wise 
+
+[10,20,30]
+[40,50,60]
+[70,80,90]
 
 
+#Row wise
 
+10 20 30
+40 50 60
+70 70 90
+
+'''
+
+## Q. What is shallow copy and deep copy 
+## What is list aliasing
+
+
+## Tuples
+
+1) it is collection of hetrogeneous elements
+2) it allows duplicate items
+3) It is immutable (Non changable)
+
+
+## Paranthesis is optional in tuple, important is commna
+
+t = ("red","green","orange")
+
+## Two functions of tuple
+
+	count -- it will find number of occurence of element
+	index -- It will find the index value of the particular element. 
+	
+	
+## Adding numbers in tuple using eval function 	
+	
+k = eval(input("enter the numbers"))
+j=0
+for i in k:
+       j=j+i;
+print(j)
 
 
 
