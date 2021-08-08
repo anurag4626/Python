@@ -235,7 +235,21 @@ for i in k:
        j=j+i;
 print(j)
 
+8-Aug-2021
 
+## 
+
+Set 
+
+update function --- to add multiple items in the set 
+	this should be iterable objects like list, string etc. 
+
+## Write a program to print differenet vowels present inside in the given word. 
+
+a = input("enter the word")
+k = set(a)
+l = {"a","e","i","o","u",}
+print("common elements are",k&l)
 
 
 
